@@ -1,0 +1,55 @@
+# Build settings
+plugins:
+  - jemoji
+  - jekyll-paginate
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+lang: en-IE
+
+# Site settings
+title: "The Motherhood Manual"
+description: "Becoming a mum in Ireland, one 3am at a time"
+
+# blog logo (shown in the circle above the title and floating in the corner)
+logo: "/assets/images/logo.svg"
+float_logo: true
+
+# link preview image for LinkedIn/Facebook (PNG, 1200x627)
+og_image: "/assets/images/og-default.png"
+
+# blog cover
+cover: "/assets/images/cover.svg"
+
+name: "The Motherhood Manual"
+author: "A new mum in Ireland"
+author_image: "/assets/images/logo.svg"
+author_bio: "First-time mum in Kildare, writing honestly about the overwhelm of the first months as a parent in Ireland."
+
+paginate: 5
+
+url: "https://nehrini.github.io"
+baseurl: "/the-motherhood-manual"
+
+# Share buttons under each post (no profile links)
+social:
+  - icon: linkedin
+    desc: Share on LinkedIn
+    share_url: "https://www.linkedin.com/sharing/share-offsite/"
+    share_link: "?url="
+  - icon: facebook
+    desc: Share on Facebook
+    share_url: "https://www.facebook.com/sharer.php"
+    share_title: "?t="
+    share_link: "&amp;u="
+  - icon: twitter
+    desc: Share on X
+    share_url: "https://twitter.com/share"
+    share_title: "?text="
+    share_link: "&amp;url="
+
+exclude:
+  - README.md
+  - THEME-LICENCE
+  - Gemfile
+  - Gemfile.lock
