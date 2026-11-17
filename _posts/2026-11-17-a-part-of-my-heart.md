@@ -2,7 +2,7 @@
 layout: post
 title: "A Part of My Heart"
 subtitle: "The Motherhood Manual: after all the hard parts, the part nobody could have explained to me"
-date: 2026-11-18
+date: 2026-11-17
 tags: [featured]
 image: /assets/images/cover-sunrise.svg
 image2: /assets/images/cover-sunrise.svg
