@@ -31,32 +31,26 @@ layout: default
 
 <main class="content" role="main">
 
-    {% if site.tags.featured %}
-    <h5 class="index-headline featured"><span>Featured</span></h5>
+    {% if site.tags.featured and paginator.page == 1 %}
+    <h5 class="index-headline featured"><span>&#9825; Featured</span></h5>
 
     <div class="container featured">
       {% for post in site.tags.featured %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-            </div>
-          </div>
-        </article>
+        <a class="featured-card" href="{{ post.url | prepend: site.baseurl }}" style="background-image: url({{ post.image | prepend: site.baseurl }})">
+          <span class="featured-label">From the heart</span>
+          <span class="featured-title">{{ post.title }}</span>
+          {% if post.subtitle %}<span class="featured-sub">{{ post.subtitle }}</span>{% endif %}
+          <span class="featured-read">Read the post &rarr;</span>
+        </a>
       {% endfor %}
     </div>
 
-    <h5 class="index-headline normal"><span>Regular</span></h5>
+    <h5 class="index-headline normal"><span>The series</span></h5>
     {% endif %}
 
     <div class="cf frame">
       {% for post in paginator.posts %}
+        {% if post.tags contains 'featured' %}{% continue %}{% endif %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <header class="post-header">

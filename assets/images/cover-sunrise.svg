@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9d7fae"/>
+      <stop offset="0.4" stop-color="#d98ea6"/>
+      <stop offset="0.72" stop-color="#f2a99a"/>
+      <stop offset="1" stop-color="#fbd3a8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.84" r="0.55">
+      <stop offset="0" stop-color="#fff2d6" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#ffe0bf" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#ffe0bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <circle cx="800" cy="880" r="130" fill="#fff4dc" opacity="0.95"/>
+  <g stroke="#fff4dc" stroke-width="4" stroke-linecap="round" opacity="0.45">
+    <line x1="800" y1="700" x2="800" y2="630"/>
+    <line x1="660" y1="745" x2="615" y2="700"/>
+    <line x1="940" y1="745" x2="985" y2="700"/>
+    <line x1="580" y1="840" x2="515" y2="825"/>
+    <line x1="1020" y1="840" x2="1085" y2="825"/>
+  </g>
+  <g fill="#ffffff" opacity="0.5">
+    <circle cx="220" cy="120" r="2"/><circle cx="420" cy="70" r="1.6"/><circle cx="1180" cy="90" r="2"/><circle cx="1420" cy="160" r="1.6"/>
+  </g>
+  <g fill="#fde3ea" opacity="0.6">
+    <ellipse cx="200" cy="930" rx="420" ry="110"/>
+    <ellipse cx="1400" cy="930" rx="440" ry="115"/>
+  </g>
+  <g fill="#fff3ef" opacity="0.8">
+    <ellipse cx="500" cy="1000" rx="560" ry="90"/>
+    <ellipse cx="1150" cy="1005" rx="580" ry="95"/>
+  </g>
+</svg>
