@@ -1,9 +1,9 @@
 # Upcoming posts shown on the home page as "Coming soon".
 # Remove a line once its post is published in _posts/.
 upcoming:
-  - part: 5
+  - part: 6
     title: "Counting nappies on the back of a receipt"
     teaser: "Tracking feeds, nappies and the mental load between two exhausted parents."
-  - part: 6
+  - part: 7
     title: "What I'd tell myself at week one"
     teaser: "The things that would have made the first twelve weeks feel less overwhelming."
