@@ -11,7 +11,7 @@ og_image: /assets/images/og-who-am-i-now.png
 
 Before he arrived, a typical Saturday looked something like this.
 
-A long walk in nature with my dog, then probably another one later. Coffee and a wander around the shops with friends. Something good in the oven, because I loved cooking and baking. My hair done, my nails done. A book. And, if the mood was right, dancing till 2am.
+A long walk in nature with my dog, then probably another one later. Coffee and a wander around the shops with friends. Something good in the oven, because I loved cooking and baking. My hair done, my nails done. A book. Dinner with my husband and a bottle of wine, sometimes a good movie and a long conversation. Other times just lying around watching our favourite shows and laughing. And, if the mood was right, dancing till 2am.
 
 I was outdoorsy and active, and I always had time for the things that made me feel like me.
 
