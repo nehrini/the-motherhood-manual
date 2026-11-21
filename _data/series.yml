@@ -1,6 +1,6 @@
 # Upcoming posts shown on the home page as "Coming soon".
 # Remove a line once its post is published in _posts/.
 upcoming:
-  - part: 7
+  - part: 8
     title: "What I'd tell myself at week one"
     teaser: "The things that would have made the first twelve weeks feel less overwhelming."
